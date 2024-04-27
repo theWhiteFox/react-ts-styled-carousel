@@ -8,17 +8,14 @@ bun i
 bun run dev
 ```
 
-[React](https://react.dev/)
+## ref 
+[how-to-build-an-auto-play-slideshow-with-react](https://tinloof.com/blog/how-to-build-an-auto-play-slideshow-with-react)
 
-[TS](https://www.typescriptlang.org/)
-
-[styled components](https://styled-components.com/)
-
-[NVM](https://github.com/nvm-sh/nvm)
-
-[Bun](https://bun.sh/)
-
-[Vite](https://vitejs.dev/guide/)
+| utilizing                                           |                                       |
+| ----------------------------------------------------| ------------------------------------- | 
+| [React](https://react.dev/)                         | [TS](https://www.typescriptlang.org/) |
+| [styled components](https://styled-components.com/) | [NVM](https://github.com/nvm-sh/nvm)  |
+| [Bun](https://bun.sh/)                              | [Vite](https://vitejs.dev/guide/)     |
 
 Currently, two official plugins are available:
 
