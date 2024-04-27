@@ -10,4 +10,4 @@
 
 [Bun](https://bun.sh/)
 
-[Bun Vite](https://bun.sh/guides/ecosystem/vite)
+[Vite]([https://bun.sh/guides/ecosystem/vite](https://vitejs.dev/guide/))
