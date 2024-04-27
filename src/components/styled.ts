@@ -23,6 +23,7 @@ const CarouselStyled = styled.div`
 
 const SlideshowSlider = styled.div`
   white-space: nowrap;
+  transition: ease 1000ms;
 `;
 
 const Card = styled.div`
@@ -45,6 +46,10 @@ const Indicator = styled.div`
   cursor: pointer;
   margin: 15px 7px 0px;
   background-color: #c4c4c4;
+
+  &.active {
+    background-color: #6a0dad;
+  }
 `;
 
 export const CarouselStyles = {
