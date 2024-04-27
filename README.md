@@ -10,8 +10,8 @@ bun i
 bun run dev
 ```
 
-| utilizing                                           |                                       |
-| :---------------------------------------------------| ------------------------------------- | ----------------------------------| 
+| utilizing                                           |                                       |                                   |
+| :---------------------------------------------------| ------------------------------------- | --------------------------------- | 
 | [React](https://react.dev/)                         | [TS](https://www.typescriptlang.org/) | [Bun](https://bun.sh/)            |
 | [styled components](https://styled-components.com/) | [NVM](https://github.com/nvm-sh/nvm)  | [Vite](https://vitejs.dev/guide/) |
 
