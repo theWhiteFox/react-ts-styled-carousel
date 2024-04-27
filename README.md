@@ -1,4 +1,4 @@
-# React TS styled compoentnets Carousel
+# React TS styled compontents Carousel
 
 [React](https://react.dev/)
 
@@ -9,3 +9,5 @@
 [NVM](https://github.com/nvm-sh/nvm)
 
 [Bun](https://bun.sh/)
+
+[Bun Vite](https://bun.sh/guides/ecosystem/vite)
