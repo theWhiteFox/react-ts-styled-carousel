@@ -10,14 +10,14 @@ bun i
 bun run dev
 ```
 
-## ref 
-[how-to-build-an-auto-play-slideshow-with-react](https://tinloof.com/blog/how-to-build-an-auto-play-slideshow-with-react)
-
 | utilizing                                           |                                       |
 | :---------------------------------------------------| ------------------------------------- | 
 | [React](https://react.dev/)                         | [TS](https://www.typescriptlang.org/) |
 | [styled components](https://styled-components.com/) | [NVM](https://github.com/nvm-sh/nvm)  |
 | [Bun](https://bun.sh/)                              | [Vite](https://vitejs.dev/guide/)     |
+
+## ref 
+[how-to-build-an-auto-play-slideshow-with-react](https://tinloof.com/blog/how-to-build-an-auto-play-slideshow-with-react)
 
 Currently, two official plugins are available:
 
