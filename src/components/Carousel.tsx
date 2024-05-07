@@ -7,7 +7,7 @@ const delay = 2500;
 const Carousel = () => {
 
   const [index, setIndex] = useState(0)
-  const timeoutRef = useRef(0);
+  const timeoutRef = useRef<ReturnType<typeof setInterval> | null>(0);
 
   const resetTimeout = () => {
     if (timeoutRef.current) {
