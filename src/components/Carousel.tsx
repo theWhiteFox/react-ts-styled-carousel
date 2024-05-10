@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { CarouselStyles as S } from './styled'
 
 const colors = ["#0088FE", "#00C49F", "#FFBB28"];

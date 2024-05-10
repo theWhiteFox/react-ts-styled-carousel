@@ -44,3 +44,6 @@ If you haven't already signed up for ChatGPT [https://platform.openai.com/docs/o
 [https://www.typescriptlang.org/docs/handbook/2/generics.html](https://www.typescriptlang.org/docs/handbook/2/generics.html)
 
 
+`
+npx react-codemod update-react-imports
+`

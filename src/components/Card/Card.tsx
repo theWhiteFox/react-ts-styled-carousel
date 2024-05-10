@@ -1,4 +1,3 @@
-import React from 'react'
 import { useWindowSize } from '../../hooks/useWindowSize'
 import { CardStyles as S } from './styled'
 export interface CardProps {
