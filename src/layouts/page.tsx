@@ -1,7 +1,7 @@
 
 import { CardProps } from '../components/Card'
 import Carousel from '../components/Carousel/Carousel'
-import { CarouselStyles as S } from '../components/Carousel/styled'
+import { CarouselStyles as S } from './styled'
 
 const items: Array<CardProps> = [
   {
@@ -66,9 +66,15 @@ const first3ValueIndicators = (map: any[]) => [...map.values()].slice(0, 3);
 
 const Page = ({ }) => {
   return (
-    <S.CarouselMainContainer>
-      <Carousel items={items} indicators={first3ValueIndicators(items)} />
-    </S.CarouselMainContainer>
+    <S.Layout>
+      <S.PageContainer>
+        <h1>Projects Page!</h1>
+        <p>Carousel of projects.</p>
+        <S.CarouselMainContainer>
+          <Carousel items={items} indicators={first3ValueIndicators(items)} />
+        </S.CarouselMainContainer>
+      </S.PageContainer>
+    </S.Layout>
   );
 }
 

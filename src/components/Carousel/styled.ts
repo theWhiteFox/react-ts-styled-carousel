@@ -1,12 +1,5 @@
 import styled from "styled-components";
 
-const CarouselMainContainer = styled.div`
-  /* width: 800px; */
-  /* max-width: 100%; */
-  /* margin: 0 auto; */
-  /* padding: 20px 15px; */
-`
-
 const Wrapper = styled.section`
   padding: 4em;
   background: papayawhip;
@@ -24,7 +17,6 @@ const Title = styled.h1`
 const CarouselStyled = styled.div`
   margin: 0 auto;
   overflow: hidden;
-  /* max-width: 500px; */
 `;
 
 const SlideshowSlider = styled.ul`
@@ -54,7 +46,6 @@ const Indicator = styled.div`
 `;
 
 export const CarouselStyles = {
-  CarouselMainContainer,
   Wrapper,
   Title,
   CarouselStyled,
