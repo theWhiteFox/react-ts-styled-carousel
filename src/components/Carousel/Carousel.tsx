@@ -154,6 +154,7 @@ const Carousel = ({ items, indicators }: Props) => {
         ))}
       </S.SlideshowSlider>
       <S.Indicators>
+        {/* desktop */}
         {getBreakPoint(width) === '33.3%' ? (
           indicators.map((_item, index) => (
             <S.Indicator
@@ -162,7 +163,16 @@ const Carousel = ({ items, indicators }: Props) => {
               data-testId="indicator" // we'll use this later on our test
               onClick={() => indicatorOnClick(index)}
             />
-          ))
+          )) // ipad 
+        ) : getBreakPoint(width) === '50%' ? (
+          indicators.map((_item, index) => (
+            <S.Indicator
+              key={index}
+              className={`${currentIndex === index ? 'active' : ''}`}
+              data-testId="indicator" // we'll use this later on our test
+              onClick={() => indicatorOnClick(index)}
+            />
+          )) // mobile 
         ) : (
           items.map((_item, index) => (
             <S.Indicator

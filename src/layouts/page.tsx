@@ -60,9 +60,36 @@ const items: Array<CardProps> = [
     language: 'JS',
     url: 'https://thewhitefox-pokedex.netlify.app/',
   },
+  {
+    id: 8,
+    imageAlt: "A person's eye",
+    title: 'Pokedex',
+    description: 'a selection of pokemon',
+    language: 'JS',
+    url: 'https://thewhitefox-pokedex.netlify.app/',
+  },
+  {
+    id: 9,
+    imageAlt: "A person's eye",
+    title: 'Pokedex',
+    description: 'a selection of pokemon',
+    language: 'JS',
+    url: 'https://thewhitefox-pokedex.netlify.app/',
+  },
+  {
+    id: 10,
+    imageAlt: "A person's eye",
+    title: 'Pokedex',
+    description: 'a selection of pokemon',
+    language: 'JS',
+    url: 'https://thewhitefox-pokedex.netlify.app/',
+  },
 ]
 
-const first3ValueIndicators = (map: any[]) => [...map.values()].slice(0, 3);
+const first3ValueIndicators = (map: any[]) => [...map.values()].slice(items.length / 2, items.length); // tablet 
+
+// const threeValueIndicators = (map: any[]) => [...map.values()].slice(items.length % 2); // desktop
+// const twoValueIndicators = (map: any[]) => [...map.values()].slice(items.length / 2); // tablet desktop
 
 const Page = ({ }) => {
   return (

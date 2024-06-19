@@ -11,9 +11,9 @@ export interface CardProps {
 }
 
 const breakpoints = {
-  small: '98%',
-  medium: '49%',
-  large: '32.7%',
+  small: '100%',
+  medium: '50%',
+  large: '33.3%',
 }
 
 const getBreakPoint = (windowWidth: number) => {

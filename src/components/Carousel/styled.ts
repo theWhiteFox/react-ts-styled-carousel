@@ -13,7 +13,6 @@ const Title = styled.h1`
 `;
 
 /* Carousel */
-
 const CarouselStyled = styled.div`
   margin: 0 auto;
   overflow: hidden;
@@ -24,7 +23,6 @@ const SlideshowSlider = styled.ul`
   white-space: nowrap;
   transition: ease 1000ms;
 `;
-
 
 /* indicators */
 const Indicators = styled.div`
