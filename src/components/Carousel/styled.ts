@@ -17,6 +17,7 @@ const Title = styled.h1`
 const CarouselStyled = styled.div`
   margin: 0 auto;
   overflow: hidden;
+  text-align: center;
 `;
 
 const SlideshowSlider = styled.ul`

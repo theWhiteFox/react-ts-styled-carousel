@@ -5,11 +5,11 @@ import styled from 'styled-components'
 // Create a Wrapper component that'll render a <section> tag with some styles
 
 const CardWrapper = styled.div<{ $width?: string }>`
-  flex: '0 0 auto';
-  padding: '1rem';
-  scroll-snap-align: 'start';
-  flex-shrink: '0';
-  width: ${(props) => props.$width || '100%'};
+  flex: 0 0 auto;
+  padding: 1rem;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: ${(props) => props.$width || '98%'};
 `
 
 const Wrapper = styled.section`
