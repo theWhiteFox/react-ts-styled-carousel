@@ -1,4 +1,4 @@
-# React TS styled components Carousel + Vite
+# React, TypeScript, styled components, storybook Carousel + Vite
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/27493b5a-0871-4e9e-98ed-3427be359754/deploy-status)](https://app.netlify.com/sites/react-ts-styled-carousel/deploys)
 
