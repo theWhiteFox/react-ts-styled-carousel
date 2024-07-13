@@ -11,7 +11,7 @@ export type Props = {
   indicators: Array<CardProps>
 }
 
-const MIN_SWIPE_REQUIRED = 80
+const MIN_SWIPE_REQUIRED = 323
 
 const Carousel = ({ items, indicators }: Props) => {
   const containerRef = useRef<HTMLUListElement>(null)

@@ -39,24 +39,14 @@ export const Card = ({ id, total, title, description, language, url }: CardProps
 
   return (
     <S.CardWrapper
-      $width={getBreakPoint(width)}
-      style={{
-        padding: '8px 4px',
-      }}
+    // $width={getBreakPoint(width)}
+    // style={{
+    //   padding: '8px 4px',
+    // }}
     >
       <S.Card>
         <S.CardContent>
-          <S.CardHeader>
-            <span>{id} / {total}</span>
-            <h2>{title}</h2>
-          </S.CardHeader>
-          <S.CardBody>
-            <h3>Lang: {language}</h3>
-            <p>{description}</p>
-          </S.CardBody>
-          <a href={url}>
-            Read more
-          </a>
+          {language}
         </S.CardContent>
       </S.Card>
     </S.CardWrapper>
